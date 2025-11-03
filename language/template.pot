@@ -1,0 +1,60 @@
+# Whaaat? Block Omeka S Module.
+# Copyright (C) 2025 Kaeness
+# This file is distributed under the same license as the Whaaat? Block package.
+# Christophe Perrin <christophe@kaeness.fr>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Whaaat? Block\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-24 16:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: src/Site/BlockLayout/Faq.php:16
+msgid "FAQ (title + questions/answers)"
+msgstr ""
+
+#: src/Site/BlockLayout/Faq.php:44
+msgid "FAQ Title"
+msgstr ""
+
+#: src/Site/BlockLayout/Faq.php:48
+msgid "FAQ Introduction"
+msgstr ""
+
+#: src/Site/BlockLayout/Faq.php:52
+msgid "Questions/Answers"
+msgstr ""
+
+#: src/Site/BlockLayout/Faq.php:60 src/Site/BlockLayout/Faq.php:99
+#: src/Site/BlockLayout/Faq.php:156
+msgid "Question"
+msgstr ""
+
+#: src/Site/BlockLayout/Faq.php:66 src/Site/BlockLayout/Faq.php:105
+#: src/Site/BlockLayout/Faq.php:162
+msgid "Answer"
+msgstr ""
+
+#: src/Site/BlockLayout/Faq.php:78
+msgid "+ Add a question"
+msgstr ""
+
+#: src/Site/BlockLayout/Faq.php:81
+msgid "Export JSON"
+msgstr ""
+
+#: src/Site/BlockLayout/Faq.php:82
+msgid "Import JSON"
+msgstr ""
+
+#: src/Site/BlockLayout/Faq.php:172
+msgid "Invalid JSON"
+msgstr ""

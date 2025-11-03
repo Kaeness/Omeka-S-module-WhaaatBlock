@@ -1,0 +1,35 @@
+<?php
+$this->headLink()->appendStylesheet($this->assetUrl('css/faq.css', 'WhaaatBlock'));
+$this->headScript()->appendFile($this->assetUrl('js/faq.js', 'WhaaatBlock'));
+
+$title = $this->escapeHtml($title ?? '');
+$description = $description ?? '';
+$faqs = $faqs ?? [];
+?>
+
+<div class="faq-block">
+    <?php if ($title): ?>
+        <h2 class="faq-title"><?= $title ?></h2>
+    <?php endif; ?>
+    <?php if ($description): ?>
+        <div class="faq-description"><?= $description ?></div>
+    <?php endif; ?>
+
+    <?php if ($faqs): ?>
+        <div class="faq-list">
+            <?php foreach ($faqs as $i => $item): ?>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span><?= $this->escapeHtml($item['question']) ?></span>
+                        <svg class="faq-icon" viewBox="0 0 24 24">
+                            <path d="M12 15.5l-7-7 1.4-1.4L12 12.7l5.6-5.6L19 8.5z" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <?= $item['answer'] ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    <?php endif; ?>
+</div>
