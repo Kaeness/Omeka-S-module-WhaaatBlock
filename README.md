@@ -20,7 +20,7 @@ See general end user documentation for [Installing a module](http://omeka.org/s/
 
 ## Usage
 
-You can add this FAQ block to the content of your pages.
+You can add this FAQ block to the content of your pages.
 
 It is possible to add multiple FAQ blocks within the same page.
 
