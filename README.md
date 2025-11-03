@@ -17,7 +17,7 @@ If the module was installed from the source, rename the name of the folder of th
 Then install it like any other Omeka S module.
 
 See general end user documentation for [Installing a module](http://omeka.org/s/docs/user-manual/modules/#installing-modules)
-
+
 ## Usage
 
 You can add this FAQ block to the content of your pages.
