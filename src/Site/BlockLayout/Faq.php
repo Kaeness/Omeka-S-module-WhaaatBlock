@@ -46,7 +46,7 @@ class Faq extends AbstractBlockLayout
             </div>
             <div class="field">
                 <div class="field-meta"><label for="o:block[__blockIndex__][o:data][description]"><?= $translate('FAQ Introduction') ?></label></div>
-                <div class="inputs"><textarea name="o:block[__blockIndex__][o:data][description]" id="o:block[__blockIndex__][o:data][description]" rows="3" class="full-width"><?= $description ?></textarea></div>
+                <div class="inputs"><textarea name="o:block[__blockIndex__][o:data][description]" id="o:block[__blockIndex__][o:data][description]" rows="5" class="full-width wysiwyg"><?= $description ?></textarea></div>
             </div>
 
             <h4><?= $translate('Questions/Answers') ?></h4>
@@ -66,7 +66,7 @@ class Faq extends AbstractBlockLayout
                                 <label for="o:block[__blockIndex__][o:data][faqs][<?= $i ?>][answer]"><?= $translate('Answer').' '.($i+1) ?></label>
                             </div>
                             <div class="inputs">
-                                <textarea id="o:block[__blockIndex__][o:data][faqs][<?= $i ?>][answer]" name="o:block[__blockIndex__][o:data][faqs][<?= $i ?>][answer]" rows="3" class="full-width"><?= $view->escapeHtml($item['answer']) ?></textarea>
+                                <textarea id="o:block[__blockIndex__][o:data][faqs][<?= $i ?>][answer]" name="o:block[__blockIndex__][o:data][faqs][<?= $i ?>][answer]" rows="5" class="full-width wysiwyg"><?= $view->escapeHtml($item['answer']) ?></textarea>
                             </div>
                         </div>
                         <?php $i++; ?>
@@ -105,7 +105,7 @@ class Faq extends AbstractBlockLayout
                     <label for="o:block[${blockIndex}][o:data][faqs][${index}][answer]"><?= $translate('Answer') ?> ${index+1}</label>
                 </div>
                 <div class="inputs">
-                    <textarea id="o:block[${blockIndex}][o:data][faqs][${index}][answer]" name="o:block[${blockIndex}][o:data][faqs][${index}][answer]" rows="3" class="full-width"></textarea>
+                    <textarea id="o:block[${blockIndex}][o:data][faqs][${index}][answer]" name="o:block[${blockIndex}][o:data][faqs][${index}][answer]" rows="5" class="full-width wysiwyg"></textarea>
                 </div>
             </div>`;
             container.insertAdjacentHTML('beforeend', html);
@@ -162,7 +162,7 @@ class Faq extends AbstractBlockLayout
                                         <label for="o:block[${blockIndex}][o:data][faqs][${i}][answer]"><?= $translate('Answer') ?> ${i+1}</label>
                                     </div>
                                     <div class="inputs">
-                                        <textarea id="o:block[${blockIndex}][o:data][faqs][${i}][answer]" name="o:block[${blockIndex}][o:data][faqs][${i}][answer]" rows="3" class="full-width">${item.answer}</textarea>
+                                        <textarea id="o:block[${blockIndex}][o:data][faqs][${i}][answer]" name="o:block[${blockIndex}][o:data][faqs][${i}][answer]" rows="5" class="full-width wysiwyg">${item.answer}</textarea>
                                     </div>
                                 </div>`;
                                 container.insertAdjacentHTML('beforeend', html);
